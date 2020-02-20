@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+     <title>Calcular MD5</title>
+
+     <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+	</head> 
+<body> 
+     <script>
+          var mensaje = 'El mensaje original';
+          var resumen = CryptoJS.MD5(mensaje);
+          document.write("Mensaje '" + mensaje + "' -> Hash MD5: " + resumen); 
+     </script> 
+</body> 
+</html>
